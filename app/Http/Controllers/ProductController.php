@@ -34,6 +34,8 @@ class ProductController extends Controller
         $product = new Product();
         return view('product.create', compact('product'));
     }
+    
+
 
     /**
      * Store a newly created resource in storage.
